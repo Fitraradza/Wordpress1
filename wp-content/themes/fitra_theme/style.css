@@ -1,0 +1,107 @@
+/*
+Theme Name: fitra_theme
+Theme URI: http://localhost/wordpress1
+Author: Fitraradza
+Author URI: fitra.com
+Description: Ini adalah tema buatan fitra
+*/
+
+body{
+    margin: 50px auto;
+    width: 80%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    color: rgb(72, 143, 217);
+
+}
+
+h1{
+    margin-bottom: 0px;
+}
+
+h1 a{
+    background-color: #e8e3e3;
+    padding: 5px;
+}
+
+h2{
+    margin-top: 0px;
+}
+
+li{
+    list-style: none;
+}
+
+nav ul{
+    padding-left: 0px;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+header nav li{
+    font-size: 22px;
+    border: 2px solid #333;
+    color: #333;
+    padding: 3px;
+}
+
+header{
+    border-bottom: 3px solid #333;
+}
+
+.galeri{
+    background-color: rgb(255, 229, 158);
+    /* padding: 10px; */
+}
+
+footer{
+    border-top: 3px solid #333;
+}
+
+.sub_judul{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header nav{
+    float: left;
+    width: 70%;
+}
+
+#search-form{
+    float: right;
+    margin-top: 20px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.clear{
+    clear:both;
+}
+
+#main-page{
+    width: 80%;
+    margin-left: 0 auto;
+}
+
+#front-page{
+    text-align: center;
+}
+
+.header-front-page{
+    background-image: url('assets/images/Lighthouse.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+}
+
+
